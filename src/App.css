@@ -1,0 +1,73 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem 1rem;
+}
+
+.displayContainer,.alternatedisplayContainer{
+    flex: 1;
+    margin: 1rem 10%;
+    padding-top: 1rem;
+    border-top: solid black 1px;
+}
+
+input{
+    padding: 10px 1rem;
+    min-width: 200px;
+    width: 70%;
+    border: 1px solid black;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.searchbtn{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 10px 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+.searchbtn:hover{
+    cursor: pointer;
+}
+
+.headeratag{
+    color: blue;
+    font-weight: 900;
+    font-size: 23px;
+    padding-bottom: 3px;
+}
+
+.card{
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.displaylink{
+    padding-bottom: 5px;
+}
+
+.alternatedisplayContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.globeImg{
+    width: 50%;
+    margin: 0px 25%;
+}
